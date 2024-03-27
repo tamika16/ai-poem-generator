@@ -7,35 +7,39 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic for your poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>Poem container</div>
-    </main>
-    <footer>
-      This AI project was coded with 💜 by
-      <a href="https://github.com/tamika16" target="_blank">Tamika Englehart</a
-      >, is
-      <a href="https://github.com/tamika16/ai-poem-generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted by
-      <a href="https://tamikapoemgenerator.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic for your poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="text-input-field"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">Poem container</div>
+      </main>
+      <footer>
+        This AI project was coded with 💜 by
+        <a href="https://github.com/tamika16" target="_blank"
+          >Tamika Englehart</a
+        >, is open-sourced on
+        <a href="https://github.com/tamika16/ai-poem-generator" target="_blank"
+          >GitHub</a
+        >
+        and hosted by
+        <a href="https://tamikapoemgenerator.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
