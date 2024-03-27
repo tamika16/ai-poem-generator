@@ -6,28 +6,33 @@
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
-    <title>Positivity Haiku Generator</title>
+    <title>Uplifting Haiku Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>Positivity Haiku Generator</h1>
+        <h1>Uplifting Haiku Generator</h1>
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a topic for your poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="text-input-field"
-            id="user-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="What is troubling you lately?"
+              autofocus
+              required
+              autocomplete="off"
+              class="text-input-field"
+              id="user-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="example">
+            i.e: you have too much homework or your car broke down
+          </div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         This AI project was coded with 💜 by
